@@ -35,9 +35,9 @@ export const CartItems = () => {
         })}
         <div className="cartitems-down">
             <div className="cartitems-total">
-                <h1>cart Totals</h1>
+            <h1>Cart Totals</h1>
                 <div>
-                    <div>
+                    
                         <div className="cartitems-total-item">
                             <p>Subtotal</p>
                             <p>${getTotalCartAmount()}</p>
@@ -52,8 +52,7 @@ export const CartItems = () => {
                             <h3>Total</h3>
                             <h3>${getTotalCartAmount()}</h3>
                         </div>
-                    </div>
-                    <button>PROCEED TO CHECKOUT</button>
+                    
                 </div>
                 <div className="cartitems-promocode">
                     <p>If you have a discount code, Enter it here</p>
@@ -62,6 +61,7 @@ export const CartItems = () => {
                         <button>Submit</button>
                     </div>
                 </div>
+                <button>PROCEED TO CHECKOUT</button>
             </div>
         </div>
     </div>
